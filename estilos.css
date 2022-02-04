@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: sans-serif;
+    background: url(../imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 570px;
+    height:620px; 
+    margin:15px auto;
+    background:#fcf7f2;
+    box-shadow: 1px 1px 6px 1px #5f160f;
+    border: #5f160f 1px solid;
+    border-radius: 6px;
+}
+h2{
+    width:161px;
+    margin:0 auto;
+    margin-top: 15px;
+}
+fieldset{
+    width:250px;
+    margin: 10px 0 0 10px;
+    padding:0 10px 3px 10px;
+    float:left;
+    border:none;
+}
+#usuPassw{
+    border:1px solid #5f160f;
+	color:#5f160f;
+    margin:2px 0 0 15px;
+    padding-bottom: 20px;
+}
+legend{
+    margin-top: 15px;
+    color:#d16525;
+}
+.letras {
+    text-transform: uppercase; 
+    font-weight: bold;
+	color:#5f160f;
+}
+input{
+    display: block;
+    width: 230px;
+    height: 30px;
+    margin: 10px 0 0 10px;
+    background:none;
+    border:none;
+    border-bottom: 1px solid #5f160f; 
+}
+#iNros, #iCodPost{
+    display: inline;
+    width: 82px;
+    margin-left:29px;
+}
+#edad legend, #foto legend{
+    margin:0 auto;
+}
+#edad p, #edad input, #foto input{
+    display: inline;
+    border:none;
+}
+#iFechaNac{
+    width: 112px;
+    margin:5px 0 0 4px;
+}
+#iAnios{
+    width: 17px;
+    border:none;
+    background:none;
+    margin:0 1px 0 3px;
+}
+#mapa{
+    width: 70px;
+    border:1px solid #d16525;
+    margin:10px 0 0 68px;
+    padding:10px;
+}
+button{
+    width:100%;
+    height:42px;
+	margin-top: 20px;
+    background:#fcf7f2;
+    border:none;
+    border-top: 4px solid #5f160f; 
+    font-family:serif;
+    font-size: 25px;
+    font-weight:bold;
+}
+button:hover{
+	width:100%;
+    padding:5px;
+    letter-spacing: 2px;
+    border:none;
+    border-top: 4px solid #5f160f; 
+    box-shadow: 1px 0 5px 2px rgb(129, 18, 18);
+}
+button:active{
+    border-radius: 60px;
+}
